@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About the creators of this webpage</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="{{url_for('static', filename='img/icon.png')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/members.css')}}"
+    />
+    <style>
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: gainsboro;
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: rgb(37, 37, 37);
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="list">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a class="active" href="/member">Members</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
+      <br />
+      <h1>DESIGNERS</h1>
+      <hr />
+      <div class="container">
+        <div class="image">
+          <img src="{{url_for('static',filename='img/Gaurav.jpg')}}" />
+        </div>
+        <h4>
+          <br />
+          Gaurav Agrawal<br />
+          B.Tech CSE 3rd year<br />
+          Chandigarh University<br />
+          <br />
+        </h4>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="{{url_for('static', filename='img/mudit.jpeg')}}" />
+        </div>
+        <h4>
+          <br />
+          Mudit Dhawan<br />
+          B.Tech CSE 3rd year<br />
+          Chandigarh University<br />
+          <br />
+        </h4>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="{{url_for('static', filename='img/shreya.jpeg')}}" />
+        </div>
+        <h4>
+          <br />
+          Shreya Mathur<br />
+          B.Tech CSE 3rd year<br />
+          Chandigarh University<br />
+          <br />
+        </h4>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="{{url_for('static', filename='img/Arpit.jpeg')}}" />
+        </div>
+        <h4>
+          <br />
+          Arpit Gupta<br />
+          B.Tech CSE 3rd year<br />
+          Chandigarh University<br />
+          <br />
+        </h4>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="{{url_for('static', filename='img/mridul.jpeg')}}" />
+        </div>
+        <h4>
+          <br />
+          Mridul<br />
+          B.Tech CSE 3rd year<br />
+          Chandigarh University<br />
+          <br />
+        </h4>
+      </div>
+    </div>
+  </body>
+</html>
