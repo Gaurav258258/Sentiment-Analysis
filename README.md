@@ -1,4 +1,4 @@
-<img style="width:5%; height:5%;" src="https://github.com/Gaurav258258/Sentiment-Analysis/blob/master/static/img/icon.png?raw=true">
+<img style="width:5%; height:5%;" src="https://github.com/Gaurav258258/Sentiment-Analysis/blob/main/static/img/icon.png?raw=true">
 
 # Sentiment Analysis
 
