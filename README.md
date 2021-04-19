@@ -1,4 +1,4 @@
-<img style="width:5%; height:5%;" src="https://github.com/g-paras/sentiment-analysis-api/blob/master/static/img/icon.png?raw=true">
+<img style="width:5%; height:5%;" src="https://github.com/Gaurav258258/Sentiment-Analysis/blob/master/static/img/icon.png?raw=true">
 
 # Sentiment Analysis
 
@@ -16,8 +16,6 @@ Python dependencies used:-
 6. Regex 2020.6.8
 7. NLTK 3.5
 
-Check it out on
-https://sentiment-analysis-web-app.herokuapp.com
 
 It might take few seconds to load please give it a try
 
